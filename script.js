@@ -1,6 +1,7 @@
 time
 i
 s
+funcTime
 
 function cronometro() {
   time = document.getElementById("time")
@@ -76,6 +77,14 @@ function cronometro() {
 function iniciar() {
     i = 0
     s = 0
-    setInterval(cronometro, 1000) /*1000 = 1 segundo*/
+    funcTime = setInterval(cronometro, 1000) /*1000 = 1 segundo*/
 }
 
+function parar() {
+    clearInterval(funcTime)
+}
+
+function zerar() {
+    parar()
+    time.innerHTML = "00:00"
+}
