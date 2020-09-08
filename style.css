@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: rgb(255, 250, 250);
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("baixados.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
+#principal {
+    background-color: #00000075;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+h1 {
+    padding: 20px;
+}
+
+button {
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    /*margin: 65% 2%  2%;*/
+    margin: 10% 2%  2%;
+    border-radius: 10px;
+}
+
+ #time {
+     margin: 20% 0;
+    font-size: 80px;
+}
